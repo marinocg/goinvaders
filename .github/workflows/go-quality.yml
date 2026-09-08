@@ -1,0 +1,21 @@
+name: Go Quality
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  go-mod-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.2'
+
+      - name: Verify Go modules
+        run: go mod verify
