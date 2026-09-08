@@ -1,0 +1,103 @@
+.github/workflows/go-quality.yml
+  s_85a7f760b7b919::t_99e2e01581e748 1-21
+.gitignore
+  s_85a7f760b7b919::t_53b51f28768641 1
+docs/decisions/classic-gameplay.md
+  s_85a7f760b7b919::t_032f48505f4df5 1-196
+docs/decisions/core-architecture.md
+  s_85a7f760b7b919::t_86fb504e91deed 1-163
+docs/decisions/gameplay-rules.md
+  s_85a7f760b7b919::t_a7065e3b9b7c42 1-131
+docs/decisions/go-tooling.md
+  s_85a7f760b7b919::t_e4ebbb6cf89074 1-59
+docs/decisions/playability-polish.md
+  s_85a7f760b7b919::t_b75262bb60d9c4 1-297
+docs/decisions/terminal-ux.md
+  s_85a7f760b7b919::t_51ec41b6e9597d 1-135
+docs/decisions/terminal-visual-language.md
+  s_85a7f760b7b919::t_e20a15ecf510d8 1-166
+go.sum
+  s_85a7f760b7b919::t_17c818dad35000 1-4
+internal/game/bonus.go
+  s_85a7f760b7b919::t_32105cdcf9e752 1-38
+internal/game/bonus_test.go
+  s_85a7f760b7b919::t_0b01b187f96079 1-116
+internal/game/collision.go
+  s_85a7f760b7b919::t_99622d621cab2d 1-56
+internal/game/collision_test.go
+  s_85a7f760b7b919::t_06c6f876c35fb6 1-174
+internal/game/difficulty.go
+  s_85a7f760b7b919::t_01baae07db0ef2 1-33
+internal/game/difficulty_test.go
+  s_85a7f760b7b919::t_eabe4f32561cae 1-54
+internal/game/enemy.go
+  s_85a7f760b7b919::t_6b126a8545de01 1-135
+internal/game/enemy_projectile.go
+  s_85a7f760b7b919::t_329d1df05c1705 1-71
+internal/game/enemy_projectile_test.go
+  s_85a7f760b7b919::t_79d2bbb49c5557 1-296
+internal/game/enemy_test.go
+  s_85a7f760b7b919::t_7aa27a4e3c6742 1-130
+internal/game/gameplay_test.go
+  s_85a7f760b7b919::t_732121b8b42ab4 1-176
+internal/game/outcome.go
+  s_85a7f760b7b919::t_f6686ba89fdd68 1-12
+internal/game/outcome_test.go
+  s_85a7f760b7b919::t_8f4a8210e682f5 1-25
+internal/game/player.go
+  s_85a7f760b7b919::t_30e0dc29844b0c 1-22
+internal/game/player_test.go
+  s_85a7f760b7b919::t_78b6dd52a454a9 1-54
+internal/game/projectile.go
+  s_85a7f760b7b919::t_cbfd917a7f6e0a 1-27
+internal/game/projectile_test.go
+  s_85a7f760b7b919::t_d198f5d1bb469f 1-70
+internal/game/shield.go
+  s_85a7f760b7b919::t_4d63635984f2fd 1-75
+internal/game/shield_test.go
+  s_85a7f760b7b919::t_f12a235a0e334d 1-99
+internal/game/state.go
+  s_85a7f760b7b919::t_194f0d05b1532c 1-407
+internal/game/state_test.go
+  s_85a7f760b7b919::t_947fc49ea591d1 1-247
+internal/game/wave.go
+  s_85a7f760b7b919::t_6b5fd3f487afc9 1-23
+internal/game/wave_test.go
+  s_85a7f760b7b919::t_4ac346cb3ed072 1-63
+internal/input/input.go
+  s_85a7f760b7b919::t_dbbbb42fac65a8 1-58
+internal/input/input_test.go
+  s_85a7f760b7b919::t_3d136a6f63c69e 1-119
+internal/input/queue_source.go
+  s_85a7f760b7b919::t_d03f3294bd3a3e 1-36
+internal/input/terminal.go
+  s_85a7f760b7b919::t_7f58dafff4cb93 1-214
+internal/input/terminal_integration_test.go
+  s_85a7f760b7b919::t_724a7fb2c53fbc 1-22
+internal/input/terminal_test.go
+  s_85a7f760b7b919::t_8d6426aaf05722 1-171
+internal/render/sprite.go
+  s_85a7f760b7b919::t_c27b677fe6637d 1-93
+internal/render/sprite_test.go
+  s_85a7f760b7b919::t_fee06dac5220ec 1-147
+internal/render/theme.go
+  s_85a7f760b7b919::t_6248095b109ed4 1-96
+internal/render/theme_test.go
+  s_85a7f760b7b919::t_a42ea612d85d15 1-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d94d3988e182c72ca9deef7bdf4c8f8e4bf5ce9e",
+  "prompts": {},
+  "sessions": {
+    "s_85a7f760b7b919": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f7fdf7eecffeXxGEiZssrTxUrQ",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Marino Costa González <marino.costa.gonzalez@gmail.com>"
+    }
+  }
+}
